@@ -424,3 +424,4 @@
     $(this).addClass('active');
   });
 })(jQuery)
+console.log('xande esteve aqui, mas vc não vai ver')

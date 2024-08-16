@@ -135,6 +135,11 @@
               <strong>Erro!</strong> Todos os campos são obrigatórios.</div>';
           }
       }
+
+if(isset($_REQUEST['sair'])){
+    session_destroy();
+    header("Location: ../index.php?acao=sair");
+}
       ?>    
       <!-- /.social-auth-links -->
       
